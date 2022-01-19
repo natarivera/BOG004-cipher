@@ -5,9 +5,25 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <div id= "bienvenido">
+      <center><h1>Caesar Cipher</h1></center>
+      <center><img src="imgs/Cesar.jpg" alt= "cesar" width="400" height=""> </center> 
+      <center><button type="button"id="Cesar" class="redondear">Ingresar</button></center>
+  </div>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+     <p> <b>Elige una posicion de desplazamiento</b> 
+      <input type="number" id="quantity" name="quantity" min="1" max="10" class="redondear"></p>
+  
+      <p><b>Ingresar Texto.</b>
+      <textarea id="Itexto" name="ingresartexto" rows="4" cols="50" class="redondear"></textarea>
+      </p>
+
+      <p><b>Texto Cifrado.</b>      
+      <textarea id="Ctexto" name="cifradotexto" rows="4" cols="50" class="redondear"></textarea>
+      <br/></p>
+      
+      <button type="button" id="regreso" class="redondear">Volver</button>
     </div>
     <script src="index.js" type="module"></script>
   </body>
