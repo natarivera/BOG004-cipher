@@ -11,20 +11,23 @@
       <center><button type="button"id="Cesar" class="redondear">Ingresar</button></center>
   </div>
   <body>
-    <div id="root">
+    <form id="root">
      <p> <b>Elige una posicion de desplazamiento</b> 
       <input type="number" id="quantity" name="quantity" min="1" max="10" class="redondear"></p>
   
-      <p><b>Ingresar Texto.</b>
+      <b>Ingresar Texto.</b>
       <textarea id="Itexto" name="ingresartexto" rows="4" cols="50" class="redondear"></textarea>
-      </p>
+      
 
       <p><b>Texto Cifrado.</b>      
       <textarea id="Ctexto" name="cifradotexto" rows="4" cols="50" class="redondear"></textarea>
       <br/></p>
-      
+      <input type="button" value="cifrar" id="cifrar" class="redondear">
+      <input type="reset" value="limpiar" id="limpiar" class="redondear">
       <button type="button" id="regreso" class="redondear">Volver</button>
-    </div>
+      
+      
+    </form>
     <script src="index.js" type="module"></script>
   </body>
 </html>

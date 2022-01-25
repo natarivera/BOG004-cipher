@@ -14,6 +14,10 @@ document.getElementById("bienvenido").style.display = "block"
 document.getElementById("root").style.display = "none"
 });
 
+const hecho= document.getElementById('cifrar');
+hecho.addEventListener("click", cifrarTexto);
+
+
 const iTexto = document.getElementById("Itexto");
 const des = document.getElementById("quantity");
 const cTexto = document.getElementById("Ctexto");
@@ -35,27 +39,43 @@ function cifrarTexto(){
             resultado = resultado + String.fromCharCode(oLetra);
         } else if(iLetra>=97 && iLetra<=122){//Minusculas            
             if(oLetra > 122){
-
                 oLetra = 97 + (oLetra - 122);
             }
             resultado = resultado + String.fromCharCode(oLetra);
-        } else {//Otros
+        
+        } else if( iLetra>=48 && iLetra<=57 ){//Numeros         
+                if(oLetra > 57){
+                   oLetra = 48 + (oLetra - 57);
+                }
+                resultado = resultado + String.fromCharCode(oLetra); 
+
+        } else if( iLetra>=32 && iLetra<=47 ){//Caracteres especiales         
+            if(oLetra > 47){
+               oLetra = 32 + (oLetra - 47);
+            }
+            resultado = resultado + String.fromCharCode(oLetra);
+
+        }   else if( iLetra>=58 && iLetra<=64 ){//Caracteres especiales         
+            if(oLetra > 64){
+               oLetra = 58 + (oLetra - 64);
+            }
+            resultado = resultado + String.fromCharCode(oLetra);
+        } 
+            else { //Otros
             resultado = resultado + texto[i];            
         }        
-    }    
+        
+          // resultado = resultado + String.fromCharCode(oLetra);  
+        
+       
     //algoritmo
-
     
     //reemplazar el resultado en cTexto    
     cTexto.value = resultado;
-}
 
+    }
+    //iTexto.addEventListener("change", cifrarTexto);
+    //des.addEventListener("change", cifrarTexto);
+    }
 
-iTexto.addEventListener("change", cifrarTexto);
-des.addEventListener("change", cifrarTexto);
-
-
-
-
-
-
+   
