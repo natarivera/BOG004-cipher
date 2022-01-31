@@ -87,7 +87,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [ x] **Uso de selectores de CSS**
+- [x] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
