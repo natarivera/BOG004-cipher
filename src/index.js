@@ -30,9 +30,6 @@ function cifrarTexto(){
     //reemplazar el resultado en cTexto    
     cTexto.value = cipher(texVal,desVal);
 
-    
-    //iTexto.addEventListener("change", cifrarTexto);
-    //des.addEventListener("change", cifrarTexto);
     }
 
    
