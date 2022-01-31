@@ -1,8 +1,10 @@
 body{
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 body {
-    color: white;
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   #root {
       display: none;
@@ -17,8 +19,61 @@ body {
   }
 
   .redondear {
-    border: 2px solid white;
+    border: 2px solid rgb(135, 50, 156);
     border-radius: 12px;
     padding: 5px;
-    
   }
+
+  textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(110, 100, 190);
+}
+
+.oblique {
+  font-style: oblique;
+  font-family: "Times New Roman";
+}
+
+.ex1 {
+  margin-top: 5px;
+  padding: 10px 50px 20px;
+}
+
+.ex2 {
+  margin-top: 100px;
+  
+}
+
+.ex3 {
+  margin-top: 50px;
+  padding: 10px 50px 20px;
+  text-shadow: 2px 2px 4px #8796ec;
+}
+
+img {
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(212, 202, 212);
+  background-color: #983abd;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(243, 153, 239);
+  text-shadow: 5px 5px 5px rgb(110, 100, 190);
+}

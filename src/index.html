@@ -5,28 +5,29 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <div id= "bienvenido">
+  <div id= "bienvenido" class="oblique">
       <center><h1>Caesar Cipher</h1></center>
-      <center><img src="imgs/Cesar.jpg" alt= "cesar" width="400" height=""> </center> 
-      <center><button type="button"id="Cesar" class="redondear">Ingresar</button></center>
+      <center><img src="imgs/Cesar.jpg" alt= "cesar" width="350" height=""class="img"</center> 
+      <center><button type="button"id="Cesar" class="redondear button">Ingresar</button></center>
   </div>
   <body>
-    <form id="root">
-     <p> <b>Elige una posicion de desplazamiento</b> 
-      <input type="number" id="quantity" name="quantity" min="1" max="10" class="redondear"></p>
+    <form id="root" class="oblique ex2">
+     <center><p><b>Elige una posicion de desplazamiento</b></p></center>
+      <center><input type="number" id="quantity" name="quantity" min="1" max="27" class="redondear"></p></center>
   
-      <b>Ingresar Texto.</b>
-      <textarea id="Itexto" name="ingresartexto" rows="4" cols="50" class="redondear"></textarea>
+      <center><b>Ingresar Texto.</b></center>
+      <textarea id="Itexto" name="ingresartexto" rows="4" cols="50" class="redondear ex1" class="a"></textarea>
       
 
-      <p><b>Texto Cifrado.</b>      
-      <textarea id="Ctexto" name="cifradotexto" rows="4" cols="50" class="redondear"></textarea>
+      <center><p><b>Texto Cifrado.</b></center>
+      <textarea id="Ctexto" name="cifradotexto" rows="4" cols="50" class="redondear ex1"></textarea>
       <br/></p>
-      <input type="button" value="cifrar" id="cifrar" class="redondear">
-      <input type="reset" value="limpiar" id="limpiar" class="redondear">
-      <button type="button" id="regreso" class="redondear">Volver</button>
-      
-      
+      <center><div id="alinear">
+      <input type="button" value="Cifrar" id="cifrar" class="redondear ex1 button">
+      <input type="reset" value="Limpiar" id="limpiar" class="redondear ex1 button">
+      <button type="button" id="regreso" class="redondear button">Volver</button>
+      </div></center>
+  
     </form>
     <script src="index.js" type="module"></script>
   </body>
