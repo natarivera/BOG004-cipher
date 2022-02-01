@@ -141,14 +141,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [x ] **Tipos de datos primitivos**
+- [x] **Tipos de datos primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ x] **Strings (cadenas de caracteres)**
+- [x] **Strings (cadenas de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -156,7 +156,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ x] **Variables (declaración, asignación, ámbito)**
+- [x] **Variables (declaración, asignación, ámbito)**
 
   <details><summary>Links</summary><p>
 
@@ -164,7 +164,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [x ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [x] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -172,7 +172,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ x] **Uso de bucles/ciclos (while, for, for..of)**
+- [x] **Uso de bucles/ciclos (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -180,7 +180,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [x ] **Funciones (params, args, return)**
+- [x] **Funciones (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -190,14 +190,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [x ] **Pruebas unitarias (unit tests)**
+- [x] **Pruebas unitarias (unit tests)**
 
   <details><summary>Links</summary><p>
 
   * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
 </p></details>
 
-- [x ] **Módulos de ECMAScript (ES Modules)**
+- [x] **Módulos de ECMAScript (ES Modules)**
 
   <details><summary>Links</summary><p>
 
@@ -205,9 +205,9 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
 </p></details>
 
-- [ ] **Uso de linter (ESLINT)**
+- [x] **Uso de linter (ESLINT)**
 
-- [x ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+- [x] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
 ### Control de Versiones (Git y GitHub)
 
