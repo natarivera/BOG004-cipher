@@ -3,7 +3,7 @@
 
 const encode = function (desplazamiento, texto) {
   if(desplazamiento == null || desplazamiento == 0){
-    throw new TypeError("Debe ingresar un desplazamiento");
+    throw new TypeError('Debe ingresar un desplazamiento');
   }
   let textoCifrado = "";
   for (var i = 0; i < texto.length; i++) {
