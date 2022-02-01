@@ -17,6 +17,8 @@ document.getElementById("root").style.display = "none"
 const hecho= document.getElementById('cifrar');
 hecho.addEventListener("click", cifrarTexto);
 
+const deshecho= document.getElementById('descifrar');
+deshecho.addEventListener("click", descifrarTexto);
 
 const iTexto = document.getElementById("Itexto");
 const des = document.getElementById("quantity");
@@ -28,8 +30,17 @@ function cifrarTexto(){
     //Agarrrar el texto
     const texVal = iTexto.value;        
     //reemplazar el resultado en cTexto    
-    cTexto.value = cipher(texVal,desVal);
+    cTexto.value = cipher.encode(desVal, texVal);
 
     }
 
+    function descifrarTexto(){
+        //Agarrar el desplazamiento
+        const desVal = parseInt(des.value);
+        //Agarrrar el texto
+        const texVal = iTexto.value;        
+        //reemplazar el resultado en cTexto    
+        cTexto.value = cipher.decode(desVal, texVal);
+    
+        }
    
